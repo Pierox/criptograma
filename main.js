@@ -200,6 +200,7 @@ function pistaA(){
     var espacio6 = $("#105").val();
     var espacio7 = $("#1").val();
     var espacio8 = $("#95").val();
+    var input = $(".inputA").val();
 
     if (espacio1 == 'M' || espacio1 == 'm' &&
         espacio2 == 'O' || espacio2 == 'o' &&
@@ -210,7 +211,10 @@ function pistaA(){
         espacio7 == 'T' || espacio7 == 't' &&
         espacio8 == 'E' || espacio8 == 'e'){
             $(".inputA").addClass('aprobado');
+            $(".inputA").trigger( "blur" );
     }
+
+   
 }
 function pistaB(){
     var espacio1 = $("#20").val();
@@ -227,6 +231,7 @@ function pistaB(){
         espacio5 == 'J' || espacio5 == 'j' &&
         espacio6 == 'E' || espacio6 == 'e'){
             $(".inputB").addClass('aprobado');
+            $(".inputB").trigger( "blur" );
     }
 }
 function pistaC(){
@@ -248,6 +253,7 @@ function pistaC(){
         espacio7 == 'U' || espacio7 == 'u' &&
         espacio8 == 'E' || espacio8 == 'e'){
             $(".inputC").addClass('aprobado');
+            $(".inputC").trigger( "blur" );
     }
 }
 function pistaD(){
@@ -263,6 +269,7 @@ function pistaD(){
         espacio4 == 'A' || espacio4 == 'a' &&
         espacio5 == 'S' || espacio5 == 's'){
             $(".inputD").addClass('aprobado');
+            $(".inputD").trigger( "blur" );
     }
 }
 function pistaE(){
@@ -278,6 +285,7 @@ function pistaE(){
         espacio4 == 'M' || espacio4 == 'm' &&
         espacio5 == 'S' || espacio5 == 's'){
             $(".inputE").addClass('aprobado');
+            $(".inputE").trigger( "blur" );
     }
 }
 function pistaF(){
@@ -289,6 +297,7 @@ function pistaF(){
         espacio2 == 'E' || espacio2 == 'e' &&
         espacio3 == 'Y' || espacio3 == 'y' ){
             $(".inputF").addClass('aprobado');
+            $(".inputF").trigger( "blur" );
     }
 }
 function pistaG(){
@@ -304,6 +313,7 @@ function pistaG(){
         espacio4 == 'H' || espacio4 == 'h' &&
         espacio5 == 'A' || espacio5 == 'a' ){
             $(".inputG").addClass('aprobado');
+            $(".inputG").trigger( "blur" )
     }
 }
 function pistaH(){
@@ -315,6 +325,7 @@ function pistaH(){
         espacio2 == 'D' || espacio2 == 'd' &&
         espacio3 == 'A' || espacio3 == 'a' ){
             $(".inputH").addClass('aprobado');
+            $(".inputH").trigger( "blur" )
     }
 }
 function pistaI(){
@@ -336,6 +347,7 @@ function pistaI(){
         espacio7 == 'U' || espacio7 == 'u' &&
         espacio8 == 'E' || espacio8 == 'e' ){
             $(".inputI").addClass('aprobado');
+            $(".inputI").trigger( "blur" )
     }
 }
 function pistaJ(){
@@ -347,6 +359,7 @@ function pistaJ(){
         espacio2 == 'E' || espacio2 == 'e' &&
         espacio3 == 'D' || espacio3 == 'd'  ){
             $(".inputJ").addClass('aprobado');
+            $(".inputJ").trigger( "blur" )
     }
 }
 function pistaK(){
@@ -358,6 +371,7 @@ function pistaK(){
         espacio2 == 'E' || espacio2 == 'e' &&
         espacio3 == 'Y' || espacio3 == 'y'  ){
             $(".inputK").addClass('aprobado');
+            $(".inputK").trigger( "blur" );
     }
 }
 function pistaL(){
@@ -369,6 +383,7 @@ function pistaL(){
         espacio2 == 'C' || espacio2 == 'c' &&
         espacio3 == 'A' || espacio3 == 'a'  ){
             $(".inputL").addClass('aprobado');
+            $(".inputL").trigger( "blur" );
     }
 }
 function pistaM(){
@@ -384,6 +399,7 @@ function pistaM(){
         espacio4 == 'U' || espacio4 == 'u' &&
         espacio5 == 'E' || espacio5 == 'e'  ){
             $(".inputM").addClass('aprobado');
+            $(".inputM").trigger( "blur" );
     }
 }
 function pistaN(){
@@ -397,6 +413,7 @@ function pistaN(){
         espacio3 == 'A' || espacio3 == 'a' &&
         espacio4 == 'L' || espacio4 == 'l'  ){
             $(".inputN").addClass('aprobado');
+            $(".inputN").trigger( "blur" );
     }
 }
 function pistaO(){
@@ -412,6 +429,7 @@ function pistaO(){
         espacio4 == 'U' || espacio4 == 'u' &&
         espacio5 == 'E' || espacio5 == 'e'  ){
             $(".inputO").addClass('aprobado');
+            $(".inputO").trigger( "blur" );
     }
 }
 function pistaP(){
@@ -423,6 +441,7 @@ function pistaP(){
         espacio2 == 'J' || espacio2 == 'j' &&
         espacio3 == 'E' || espacio3 == 'e' ){
             $(".inputP").addClass('aprobado');
+            $(".inputP").trigger( "blur" );
     }
 }
 function pistaQ(){
@@ -438,6 +457,7 @@ function pistaQ(){
         espacio4 == 'E' || espacio4 == 'e' &&
         espacio5 == 'L' || espacio5 == 'l' ){
             $(".inputQ").addClass('aprobado');
+            $(".inputQ").trigger( "blur" );
     }
 }
 function pistaR(){
@@ -457,6 +477,7 @@ function pistaR(){
         espacio6 == 'L' || espacio6 == 'l' &&
         espacio7 == 'E' || espacio7 == 'e' ){
             $(".inputR").addClass('aprobado');
+            $(".inputR").trigger( "blur" );
     }
 }
 function pistaS(){
@@ -472,6 +493,7 @@ function pistaS(){
         espacio4 == 'E' || espacio4 == 'e' &&
         espacio5 == 'L' || espacio5 == 'l' ){
             $(".inputS").addClass('aprobado');
+            $(".inputS").trigger( "blur" );
     }
 }
 function pistaT(){
@@ -491,6 +513,7 @@ function pistaT(){
         espacio6 == 'E' || espacio6 == 'e' &&
         espacio7 == 'V' || espacio7 == 'v' ){
             $(".inputT").addClass('aprobado');
+            $(".inputT").trigger( "blur" );
     }
 }
 function pistaU(){
@@ -500,6 +523,7 @@ function pistaU(){
     if (espacio1 == 'A' || espacio1 == 'a' &&
         espacio2 == 'S' || espacio2 == 's' ){
             $(".inputU").addClass('aprobado');
+            $(".inputU").trigger( "blur" );
     }
 }
 function pistaV(){
@@ -515,6 +539,7 @@ function pistaV(){
         espacio4 == 'U' || espacio4 == 'u' &&
         espacio5 == 'E' || espacio5 == 'e'  ){
             $(".inputV").addClass('aprobado');
+            $(".inputV").trigger( "blur" );
     }
 }
 function pistaW(){
@@ -526,6 +551,7 @@ function pistaW(){
         espacio2 == 'D' || espacio2 == 'd' &&
         espacio3 == 'T' || espacio3 == 't'  ){
             $(".inputW").addClass('aprobado');
+            $(".inputW").trigger( "blur" );
     }
 }
 function pistaX(){
@@ -537,6 +563,7 @@ function pistaX(){
         espacio2 == 'G' || espacio2 == 'g' &&
         espacio3 == 'O' || espacio3 == 'o'  ){
             $(".inputX").addClass('aprobado');
+            $(".inputX").trigger( "blur" );
     }
 }
 function pistaY(){
@@ -550,6 +577,7 @@ function pistaY(){
         espacio3 == 'U' || espacio3 == 'u' &&
         espacio4 == 'S' || espacio4 == 's'  ){
             $(".inputY").addClass('aprobado');
+            $(".inputY").trigger( "blur" );
     }
 }
 function cripto(){
@@ -791,6 +819,7 @@ function cripto(){
         espacio117 == 'J' || espacio117 == 'j' &&
         espacio118 == 'E' || espacio118 == 'e'  ){
             $("#cripto input").addClass('aprobado');
+            $("#cripto input").trigger( "blur" );
             $(".bgpopup2").fadeIn();
     }
 }
@@ -799,85 +828,100 @@ function resetGame(){
     $(".bgpopup2").fadeOut();
 }
 
-$(".inputA").on('keyup',function(){
-    pistaA();
-})
-$(".inputB").on('keyup',function(){
-    pistaB();
-})
-$(".inputC").on('keyup',function(){
-    pistaC();
-})
-$(".inputD").on('keyup',function(){
-    pistaD();
-})
-$(".inputE").on('keyup',function(){
-    pistaE();
-})
-$(".inputF").on('keyup',function(){
-    pistaF();
-})
-$(".inputG").on('keyup',function(){
-    pistaG();
-})
-$(".inputH").on('keyup',function(){
-    pistaH();
-})
-$(".inputI").on('keyup',function(){
-    pistaI();
-})
-$(".inputJ").on('keyup',function(){
-    pistaJ();
-})
-$(".inputK").on('keyup',function(){
-    pistaK();
-})
-$(".inputL").on('keyup',function(){
-    pistaL();
-})
-$(".inputM").on('keyup',function(){
-    pistaM();
-})
-$(".inputN").on('keyup',function(){
-    pistaN();
-})
-$(".inputO").on('keyup',function(){
-    pistaO();
-})
-$(".inputP").on('keyup',function(){
-    pistaP();
-})
-$(".inputQ").on('keyup',function(){
-    pistaQ();
-})
-$(".inputR").on('keyup',function(){
-    pistaR();
-})
-$(".inputS").on('keyup',function(){
-    pistaS();
-})
-$(".inputT").on('keyup',function(){
-    pistaT();
-})
-$(".inputU").on('keyup',function(){
-    pistaU();
-})
-$(".inputV").on('keyup',function(){
-    pistaV();
-})
-$(".inputW").on('keyup',function(){
-    pistaW();
-})
-$(".inputX").on('keyup',function(){
-    pistaX();
-})
-$(".inputY").on('keyup',function(){
-    pistaY();
-})
+$(document).ready(function(){
+    $('input').keyup(function(e){
+        if($(this).val().length==$(this).attr("maxlength")){;
+        $(this).parent().next().find('input').focus();
+        }
+       
+        if(e.keyCode == 8) {
+            $(this).parent().prev().find('input').focus().val('');
+            
+        }
+    });
+    
+    $(".inputA").on('keyup',function(){
+        pistaA();
+        
+    })
+    $(".inputB").on('keyup',function(){
+        pistaB();
+    })
+    $(".inputC").on('keyup',function(){
+        pistaC();
+    })
+    $(".inputD").on('keyup',function(){
+        pistaD();
+    })
+    $(".inputE").on('keyup',function(){
+        pistaE();
+    })
+    $(".inputF").on('keyup',function(){
+        pistaF();
+    })
+    $(".inputG").on('keyup',function(){
+        pistaG();
+    })
+    $(".inputH").on('keyup',function(){
+        pistaH();
+    })
+    $(".inputI").on('keyup',function(){
+        pistaI();
+    })
+    $(".inputJ").on('keyup',function(){
+        pistaJ();
+    })
+    $(".inputK").on('keyup',function(){
+        pistaK();
+    })
+    $(".inputL").on('keyup',function(){
+        pistaL();
+    })
+    $(".inputM").on('keyup',function(){
+        pistaM();
+    })
+    $(".inputN").on('keyup',function(){
+        pistaN();
+    })
+    $(".inputO").on('keyup',function(){
+        pistaO();
+    })
+    $(".inputP").on('keyup',function(){
+        pistaP();
+    })
+    $(".inputQ").on('keyup',function(){
+        pistaQ();
+    })
+    $(".inputR").on('keyup',function(){
+        pistaR();
+    })
+    $(".inputS").on('keyup',function(){
+        pistaS();
+    })
+    $(".inputT").on('keyup',function(){
+        pistaT();
+    })
+    $(".inputU").on('keyup',function(){
+        pistaU();
+    })
+    $(".inputV").on('keyup',function(){
+        pistaV();
+    })
+    $(".inputW").on('keyup',function(){
+        pistaW();
+    })
+    $(".inputX").on('keyup',function(){
+        pistaX();
+    })
+    $(".inputY").on('keyup',function(){
+        pistaY();
+    })
+    
+    $("#cripto input").on('keyup',function(){
+        cripto();
+    })
+});
 
-$("#cripto input").on('keyup',function(){
-    cripto();
-})
 
 
 
