@@ -124,10 +124,20 @@ td span{
     max-width: 500px;
     display: block;
 }
-.aprobado{
-    background-color: #2EAAE1 !important;
+.criptograma td input.desaprobado{
+    background-color: #CE0000;
+}
+.criptograma td input.aprobado{
+    background-color: #2EAAE1;
     pointer-events: none;
 }
+.criptograma td input.aprobado.primernombre{
+    color: #ffffff;
+}
+.criptograma td input.aprobado.segundonombre{
+    color: #efff00;
+}
+
 @media (max-width:720px){
     .popup{
         font-size: 24px;
